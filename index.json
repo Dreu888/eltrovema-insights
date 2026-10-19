@@ -1,4 +1,9 @@
 {
   "schema_version": 1,
-  "articles": []
+  "articles": [
+    {
+      "slug": "2026-10-19-ai-scams-south-africa-business-verification",
+      "sha256": "21ec9800fe05b92171db8080218ad280b0f6d3a4e5e70c9046ec46e3ed4aea42"
+    }
+  ]
 }
