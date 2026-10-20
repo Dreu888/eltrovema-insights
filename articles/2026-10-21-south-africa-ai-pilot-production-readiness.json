@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-21-south-africa-ai-pilot-production-readiness",
+  "published_date": "2026-10-21",
+  "scope": "South Africa",
+  "service": "managed-ai",
+  "title": "From AI pilots to everyday operations: a practical plan for South African businesses",
+  "seo_title": "AI Pilot to Production: South African Business Guide | Eltrovema",
+  "description": "As Johannesburg hosts the Singularity South Africa Summit, explore practical steps to turn an AI pilot into a secure, measurable business service.",
+  "excerpt": "The Singularity South Africa Summit is scheduled for 21–22 October in Johannesburg. Its programme creates a timely prompt to ask what your business needs before an AI pilot becomes an everyday service.",
+  "category": "Managed AI & Automation",
+  "keyphrase": "AI pilot to production South Africa",
+  "search_intent": "Help South African business leaders assess whether an AI pilot is ready for controlled operational use.",
+  "takeaways": [
+    "Define the business task and acceptance criteria before expanding an AI pilot.",
+    "Assign responsibility for data access, output review, exceptions and ongoing support.",
+    "Test realistic failure cases and measure the complete workflow, including human review.",
+    "Use a small, reversible rollout with clear conditions for stopping or expanding."
+  ],
+  "sections": [
+    {
+      "heading": "Why this is a useful conversation now",
+      "paragraphs": [
+        "The organiser lists the Singularity South Africa Summit for 21–22 October 2026 at the Sandton Convention Centre in Johannesburg. Its published programme includes enterprise AI execution, trust and cybersecurity. Those are programme details, not evidence that a particular session has already delivered results. Eltrovema is not claiming attendance, sponsorship or a relationship with the event.",
+        "For business owners, the useful question extends beyond a conference agenda: what would make an AI tool dependable enough to become part of normal operations? The following recommendations are Eltrovema’s practical analysis. They are intended to help frame a project discussion, rather than suggest that any specific product or approach guarantees success."
+      ],
+      "source_refs": [
+        1
+      ]
+    },
+    {
+      "heading": "Choose one task and define a useful result",
+      "paragraphs": [
+        "Start with a task that has a clear owner, identifiable inputs and a result someone can check. For example, an internal assistant might draft a summary from approved operating procedures. Keep the first version focused on that defined document set, rather than allowing it to answer every question across the organisation.",
+        "Write down what success means before testing. Agree which information must be accurate, what the assistant must decline to answer and when it should refer a request to a person. Compare the proposed workflow with the current process, including the time spent checking and correcting the output. A fast draft has limited value if verification creates more work."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Use risk management throughout the project",
+      "paragraphs": [
+        "NIST describes its AI Risk Management Framework as a voluntary resource for incorporating trustworthiness into the design, development, use and evaluation of AI systems. This is established background guidance, released in 2023, rather than a new announcement from this week. It provides a useful reference for discussing risk across the service lifecycle.",
+        "In a practical project, keep a short register of what could go wrong and who will manage each concern. Consider incorrect answers, inappropriate disclosure, unavailable services and unclear responsibility. Identify the controls you intend to test. A documented decision to limit the tool’s scope can be more useful than an ambitious launch without an agreed way to handle mistakes."
+      ],
+      "source_refs": [
+        2
+      ]
+    },
+    {
+      "heading": "Decide what information the tool may access",
+      "paragraphs": [
+        "List the information the proposed workflow genuinely needs. Identify the source owner and check whether the documents are current and approved. Decide which employees may ask questions about which material. An assistant that can search information should fit the organisation’s access model, with decisions about sensitive documents made before users begin relying on it.",
+        "Ask prospective providers how submitted information, outputs and logs are handled. Establish who can view records, what retention settings are available and how access can be withdrawn. These are questions for the chosen service and your organisation’s requirements. Avoid assuming that every AI product uses the same terms, controls or data-processing arrangements."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Test the difficult cases before expanding access",
+      "paragraphs": [
+        "Build a small test set from realistic work, using suitably authorised or synthetic information. Include incomplete requests, conflicting instructions, outdated material and questions outside the intended scope. Record whether the tool supplies a supported answer, requests clarification or refers the user to someone who can help. Keep examples of unacceptable outputs as well as successful ones.",
+        "Decide how a human reviewer will intervene. If the pilot drafts customer responses, begin with review before sending. If it suggests changes to business records, decide which changes require explicit approval. Treat any connection that can take action as a separate design decision. A demonstration that produces a convincing paragraph has not, by itself, demonstrated safe operational execution."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Plan support and measure the complete workflow",
+      "paragraphs": [
+        "Name the person responsible for the service after the pilot. Define how users report problems, who can disable an integration and where the team will record recurring errors. Maintain a working fallback so employees can complete essential tasks if the assistant becomes unavailable or unsuitable. Include those arrangements in the handover, rather than leaving them with the person who built the demonstration.",
+        "Choose a few measures that reflect the business outcome. Track completed tasks, reviewer corrections, exception handling, total operating cost and user feedback. Assess whether the tool improves the overall process under normal workload. Review the results with the business owner before expanding access, adding new document sources or giving the system further permissions."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Make the next step small and reversible",
+      "paragraphs": [
+        "A useful next step is a controlled trial with one team, one workflow and a written review date. Agree the boundaries, the checks that must pass and the conditions for pausing the service. This creates a clearer decision than a broad commitment based only on a product demonstration or a successful test with ideal inputs.",
+        "Eltrovema Technology can help you discuss the workflow, information dependencies, integration options and support arrangements for Managed AI and Automation. A consultation can turn those questions into a scoped next step. The right starting point is the operational problem you want to solve and the evidence you need before committing to a wider rollout."
+      ],
+      "source_refs": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Singularity South Africa Summit 2026 — organiser dates and programme",
+      "url": "https://singularitysouthafricasummit.org/",
+      "primary": true,
+      "accessed_date": "2026-10-21"
+    },
+    {
+      "title": "NIST AI Risk Management Framework — overview and voluntary use",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "primary": true,
+      "accessed_date": "2026-10-21"
+    }
+  ]
+}
