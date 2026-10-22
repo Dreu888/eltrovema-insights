@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-22-php2shell-emergency-patching-business-response",
+  "published_date": "2026-10-22",
+  "scope": "Global",
+  "service": "cybersecurity",
+  "title": "PHP2Shell emergency fixes: a practical response plan for business websites",
+  "seo_title": "PHP2Shell Emergency Patch Guide for Businesses | Eltrovema",
+  "description": "Two critical PHP flaws require urgent updates. Learn how to identify exposure, coordinate emergency patching and check systems for suspicious activity.",
+  "excerpt": "Emergency PHP releases address two critical flaws that can allow unauthenticated remote code execution. Organisations should confirm where PHP runs, patch supported versions and review activity from before public disclosure.",
+  "category": "Cybersecurity",
+  "keyphrase": "PHP2Shell emergency patch guide",
+  "search_intent": "Help business and IT leaders understand the PHP2Shell disclosure, identify potentially exposed services and organise a controlled emergency response.",
+  "takeaways": [
+    "Identify every internet-facing service that uses PHP, including managed hosting and less visible business applications.",
+    "Upgrade to a fixed PHP release because the PHP project says configuration changes are not a complete solution.",
+    "Review relevant activity from at least 17 October 2026, before the public disclosure and emergency releases.",
+    "Use web application firewall controls only as temporary defence in depth while patching and validating systems."
+  ],
+  "sections": [
+    {
+      "heading": "What changed on 21 October 2026",
+      "paragraphs": [
+        "On 21 October 2026, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to address CVE-2026-109618 and CVE-2026-109619. The project describes both vulnerabilities as critical and says they can allow unauthenticated remote code execution. Its advisory states that there are no complete configuration-only mitigations and that updating is the only safe choice.",
+        "Remote code execution means a vulnerable server may be made to run attacker-controlled instructions without a valid user account. That does not prove that every PHP website is compromised, and exposure depends on the runtime version and deployment. It does mean that owners should treat version discovery and patching as an urgent operational task rather than waiting for a routine monthly maintenance window."
+      ],
+      "source_refs": [
+        1
+      ]
+    },
+    {
+      "heading": "Why the response window is measured in hours",
+      "paragraphs": [
+        "AWS reported that its threat-intelligence systems identified an exploitation attempt dated 17 October, four days before public disclosure. It also observed additional attempts and proof-of-concept activity around the disclosure window, followed by broader exploitation after the patch became available. AWS notes that it is unclear whether the earlier attempts would have succeeded on real systems, so its telemetry should be treated as evidence of hostile activity, not proof that a specific organisation was breached.",
+        "This timeline changes the investigation starting point. Teams should not assume that activity before 21 October is irrelevant simply because public details were not yet available. For internet-facing PHP systems, the practical response is to patch quickly and review relevant logs from at least 17 October, adjusting the period if internal risk information supports a longer lookback."
+      ],
+      "source_refs": [
+        2
+      ]
+    },
+    {
+      "heading": "Start with an exposure inventory",
+      "paragraphs": [
+        "Create a list of websites, portals, APIs and internal applications that use PHP. Include systems managed by marketing agencies, hosting companies, software vendors and development partners. Record the hostname, business owner, hosting provider, PHP version, internet exposure and who has authority to make an emergency change. A service can be business-critical even when the internal IT team does not administer its server.",
+        "Do not infer the PHP version from the application name alone. Confirm it through the hosting control plane, package inventory, runtime output or provider support channel. Ask managed hosting providers whether they applied the fixed runtime, when the change occurred and whether all worker processes restarted. If a supplier manages the platform, keep its written confirmation with the incident record."
+      ],
+      "source_refs": [
+        1
+      ]
+    },
+    {
+      "heading": "Patch, restart and verify the running version",
+      "paragraphs": [
+        "Move supported deployments to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35 as applicable. Follow the operating system, container image or hosting provider’s supported update path rather than replacing files informally. PHP 8.2 is scheduled to reach end of life on 31 December 2026, so organisations that remain on that branch should also plan a controlled move to a longer-supported version.",
+        "After the change, restart the relevant web and PHP worker services, confirm the version actually loaded by each runtime, and perform focused application tests. Check login, form submission, file upload, payment or booking workflows, integrations and scheduled jobs according to the system’s purpose. Preserve rollback information, but do not restore a vulnerable runtime simply because an application test failed; isolate the service and resolve compatibility safely."
+      ],
+      "source_refs": [
+        1
+      ]
+    },
+    {
+      "heading": "Use temporary controls without mistaking them for a fix",
+      "paragraphs": [
+        "Where immediate patching is genuinely impossible, the PHP project lists measures that may reduce exposure to specific attack paths. AWS also describes web application firewall controls for certain multipart upload patterns. Both sources are clear that these measures are incomplete. A firewall cannot see or correct vulnerable PHP worker memory, and a rule may also disrupt legitimate uploads.",
+        "Treat any emergency rule as a time-limited defence-in-depth measure. Test it against real business workflows, document the owner and expiry date, monitor blocked requests and continue working toward the fixed release. Avoid presenting a successful WAF deployment as evidence that the underlying vulnerability has been removed."
+      ],
+      "source_refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "heading": "Check for signs that require escalation",
+      "paragraphs": [
+        "Review web, reverse-proxy, WAF, endpoint and server logs for unusual multipart POST requests, unexpected PHP worker behaviour, newly created files, changes to scheduled tasks, unexplained outbound connections, unfamiliar administrative activity and security alerts. AWS specifically recommends looking for form uploads containing the PHP_SESSION_UPLOAD_PROGRESS string. A single indicator may have a legitimate explanation, so preserve evidence and investigate in context.",
+        "If the review suggests unauthorised access, follow the organisation’s incident-response process. Contain affected systems carefully, preserve relevant logs, identify credentials and connected services that may be exposed, and involve appropriate technical, legal, privacy and insurance contacts. Regulatory or contractual reporting decisions depend on the facts and applicable obligations; this article is operational guidance, not a definitive legal conclusion."
+      ],
+      "source_refs": [
+        2,
+        3
+      ]
+    },
+    {
+      "heading": "What this means for South African organisations",
+      "paragraphs": [
+        "South African SMEs, enterprises and public-sector bodies often rely on externally hosted websites, supplier portals and custom web applications. The immediate management question is therefore not only whether the main website uses PHP, but whether each responsible provider has confirmed its runtime version, patch timing and verification steps. Procurement ownership and technical ownership must meet quickly when an emergency update affects a supplier-managed service.",
+        "Eltrovema Technology can assist with exposure discovery, supplier coordination, patch verification, log review and a prioritised remediation plan for internet-facing systems. Start with the services that accept public input or support important operations, document what is known, and assign owners to every unresolved item. A focused cybersecurity consultation can turn that inventory into a practical response and follow-up monitoring plan."
+      ],
+      "source_refs": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "PHP 2026 news archive and critical security release announcement",
+      "url": "https://www.php.net/archive/2026.php",
+      "primary": true,
+      "accessed_date": "2026-10-22",
+      "published_date": "2026-10-21"
+    },
+    {
+      "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "primary": true,
+      "accessed_date": "2026-10-22",
+      "published_date": "2026-10-21"
+    },
+    {
+      "title": "CISA alert: Critical vulnerabilities in PHP require immediate patching",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+      "primary": true,
+      "accessed_date": "2026-10-22",
+      "published_date": "2026-10-21"
+    }
+  ]
+}
