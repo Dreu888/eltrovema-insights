@@ -8,6 +8,10 @@
     {
       "slug": "2026-10-21-south-africa-ai-pilot-production-readiness",
       "sha256": "fbeb07cb9fac3ed1e27fee2d5a5aa5523ed14bb9516325afadc34449e6e89de8"
+    },
+    {
+      "slug": "2026-10-22-php2shell-emergency-patching-business-response",
+      "sha256": "80236d89ba376b2bbc92ebcb729fabbf6dafcfd1ab5f54e22a91487a7828e35a"
     }
   ]
 }
