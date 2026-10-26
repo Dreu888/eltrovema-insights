@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "slug": "2026-10-26-cyber-resilience-operating-model-south-africa",
+  "published_date": "2026-10-26",
+  "scope": "South Africa",
+  "service": "cybersecurity",
+  "title": "Cyber Resilience Needs an Operating Model, Not Only Security Tools",
+  "seo_title": "Cyber Resilience Operating Model for South Africa",
+  "description": "As the Africa Cybersecurity Indaba opens in Sandton, South African leaders can turn cyber-resilience priorities into clear ownership, controls and tests.",
+  "excerpt": "The Africa Cybersecurity Indaba convenes government, industry, academia and innovators in Sandton this week. For South African organisations, the useful leadership question is how to convert cybersecurity discussion into an operating model that assigns decisions, tests recovery and governs suppliers.",
+  "category": "Cybersecurity",
+  "keyphrase": "cyber resilience operating model South Africa",
+  "search_intent": "Help South African business and public-sector leaders build a practical cyber-resilience operating model with clear ownership, supplier controls, response decisions and recovery tests.",
+  "takeaways": [
+    "Cyber resilience requires named business decision-makers, not an assumption that the IT team owns every consequence.",
+    "Map critical services and dependencies before choosing controls or buying additional security products.",
+    "Include cloud providers, connectivity partners and other suppliers in incident and recovery exercises.",
+    "Use evidence from simulations and restoration tests to prioritise the next round of investment."
+  ],
+  "sections": [
+    {
+      "heading": "Why this week's Indaba matters to business leaders",
+      "paragraphs": [
+        "The Africa Cybersecurity Indaba is scheduled in Sandton this week, with its main conference on 28 and 29 October 2026. The organiser describes a multi-stakeholder programme involving government institutions, regulators, law enforcement, academia, telecommunications operators, financial institutions, technology companies and ICT small businesses.",
+        "The official Indaba site also lists activities spanning an innovation challenge, skills development, research, executive roundtables and an industry showcase, and identifies the Department of Communications and Digital Technologies as a co-host. The breadth is significant because cyber resilience does not sit inside one product, department or profession. It depends on how an organisation makes decisions across technology, operations, finance, communications and suppliers."
+      ],
+      "source_refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "heading": "Start with the services the organisation must keep delivering",
+      "paragraphs": [
+        "A resilience programme should begin with business services, not a list of tools. Leadership teams can identify the transactions, communications, records and public services that cannot remain unavailable for long. Each service should have an accountable owner, a maximum tolerable interruption and a clear description of what minimum operation looks like during disruption.",
+        "The next step is to map the supporting people, applications, identities, data stores, network links, devices and external providers. This often reveals hidden concentration risk: one administrator account, one connectivity path, one unsupported application or one supplier may underpin several important services. That dependency map gives decision-makers a better basis for investment than a generic request to improve cybersecurity."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Assign decisions before an incident creates pressure",
+      "paragraphs": [
+        "Incident plans often describe technical steps but leave business decisions unclear. A useful operating model specifies who can isolate a system, disable customer access, engage external specialists, approve emergency spending and communicate with affected stakeholders. Deputies are needed because an incident may occur when the primary decision-maker is unavailable.",
+        "Organisations should also agree on escalation thresholds. A suspicious login may be handled by the service desk, while evidence of privileged access, data exposure or widespread disruption should trigger executive and specialist involvement. Legal, regulatory and contractual assessment should be performed by appropriately qualified people; the technical team should preserve evidence and facts without making definitive legal conclusions."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Bring suppliers into the resilience model",
+      "paragraphs": [
+        "Cloud, software, connectivity and managed-service providers can strengthen resilience, but they also create dependencies outside the organisation's direct control. Contracts should identify security responsibilities, incident-notification routes, service expectations, access arrangements, backup ownership and the process for retrieving data when a service ends. Contact details should be tested rather than left in an old document.",
+        "A practical supplier review asks what happens if a platform is unavailable, credentials are compromised or the provider cannot meet the expected recovery time. Leaders should know whether alternative access, manual workarounds or data exports are available. Where one supplier supports several critical services, the concentration risk should be recorded and addressed through architecture, contingency planning or an informed acceptance by management."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Test recovery and decision-making together",
+      "paragraphs": [
+        "A tabletop exercise can expose gaps without interrupting production. Present leaders with a realistic scenario, such as an unavailable cloud application combined with uncertain data exposure, and require them to make timed decisions. Record assumptions, missing information, delayed approvals and unclear responsibilities. The purpose is to improve the system, not to catch individuals out.",
+        "Technical tests must accompany discussion. Restore selected data, validate backup credentials, confirm that clean devices can be provisioned and test a priority communication channel. Measure actual recovery against the agreed business requirement. A backup dashboard showing successful jobs is useful evidence, but it does not prove that people can restore the correct information within the required time."
+      ],
+      "source_refs": []
+    },
+    {
+      "heading": "Use a 30-day leadership review to create momentum",
+      "paragraphs": [
+        "During the first week, select three to five critical services and name their business owners. In week two, map the main technical and supplier dependencies. In week three, review decision rights, contact paths and recovery targets. In week four, run a short scenario exercise and one controlled restoration test, then record corrective actions with owners and due dates.",
+        "The Indaba's emphasis on collaboration, skills, policy and innovation is a timely prompt, but resilience improves only when organisations translate themes into repeatable work. Eltrovema Technology can help South African organisations assess critical services, review cybersecurity and supplier dependencies, and design practical incident and recovery exercises. A focused consultation can establish a prioritised resilience roadmap linked to operational needs and available resources."
+      ],
+      "source_refs": [
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Africa Cybersecurity Indaba 2026 News and Programme Updates",
+      "url": "https://www.cybersecurityindaba.africa/news/",
+      "primary": true,
+      "accessed_date": "2026-10-26"
+    },
+    {
+      "title": "Africa Cybersecurity Indaba 2026 Event Overview",
+      "url": "https://cyberm8.org.za/events/africa-cybersecurity-indaba-2026",
+      "primary": true,
+      "accessed_date": "2026-10-26"
+    }
+  ]
+}
