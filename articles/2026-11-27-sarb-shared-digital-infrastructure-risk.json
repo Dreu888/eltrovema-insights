@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "slug": "2026-11-27-sarb-shared-digital-infrastructure-risk",
+  "published_date": "2026-11-27",
+  "scope": "South Africa",
+  "service": "cybersecurity",
+  "title": "SARB Says Shared Digital Infrastructure Is South Africa’s Highest-Rated Financial Stability Risk",
+  "seo_title": "SARB Warns on Shared Digital Infrastructure Risk",
+  "description": "SARB says concentrated cloud, telecoms and data dependencies could spread disruption across South Africa’s financial system. Here is what the evidence shows.",
+  "excerpt": "The South African Reserve Bank’s latest Financial Stability Review puts disruption to shared digital infrastructure at the top of its risk matrix. The warning is not a prediction of a banking crisis, but it reframes cloud, telecoms and software dependencies as a system-wide resilience issue.",
+  "category": "Cybersecurity and Resilience",
+  "keyphrase": "South Africa digital infrastructure risk",
+  "search_intent": "Understand the South African Reserve Bank’s November 2026 warning about shared digital infrastructure, cloud concentration and cyber risk, including what it means for financial institutions and their customers.",
+  "takeaways": [
+    "SARB says disruption to critical digital infrastructure remains the highest-rated risk in its November 2026 financial-stability matrix.",
+    "The central concern is concentration: one cloud, telecoms, hosting or software failure could affect several financial institutions at once.",
+    "The warning is balanced by SARB’s assessment that South Africa’s financial institutions remain well capitalised and liquid.",
+    "Resilience depends on understanding shared dependencies and testing continuity when a common provider, not only an internal system, fails."
+  ],
+  "sections": [
+    {
+      "heading": "What the Reserve Bank changed on 25 November",
+      "paragraphs": [
+        "The South African Reserve Bank published the second edition of its 2026 Financial Stability Review on 25 November. Among the report’s assessed threats, disruption to critical digital infrastructure and services remains the highest-rated risk on its radial vulnerability matrix, and the residual vulnerability has increased since the June review. That is a notable shift in emphasis: technology disruption is being treated not only as an operational problem for individual firms, but as a possible channel of wider financial instability.",
+        "SARB points to shared dependencies across telecommunications networks, cloud environments, hosting providers, software platforms and data services. Its concern is that a failure at one widely used provider could bypass the defences of otherwise well-protected institutions and impair several of them simultaneously. If disruption persists or coincides with market stress, the report says it could affect digital banking, payments, market infrastructure and interbank communications."
+      ],
+      "source_refs": [1, 3]
+    },
+    {
+      "heading": "Why recent outages changed the risk calculation",
+      "paragraphs": [
+        "The review grounds its assessment in recent events. It cites the global Microsoft disruption of 12–14 November 2026, which affected communications services, and a large distributed denial-of-service campaign in May that slowed several South African hosting and network providers and caused intermittent disruption at financial institutions. These examples are different in cause, but both show how an incident outside a bank’s core systems can still reach business processes that depend on shared technology.",
+        "This article does not infer that either event threatened the solvency of a bank, and SARB does not make that claim. The evidence supports a narrower conclusion: common infrastructure can create correlated operational failure. A bank may keep its core ledger running while staff communications, customer channels or connected service providers are degraded. That distinction matters because a visible outage can be serious without amounting to a failure of the financial system."
+      ],
+      "source_refs": [1, 3]
+    },
+    {
+      "heading": "Concentration is the connecting issue",
+      "paragraphs": [
+        "South Africa has extensive connectivity, subsea cable landings and a concentrated data-centre footprint. Those strengths support digital services, but concentration also creates points where many organisations depend on the same facility, network or platform. SARB adds that several important providers are based abroad, which can limit domestic control over incident response and recovery timelines even when local institutions manage their own environments carefully.",
+        "The same concentration appears on the financial side of the AI boom. Separate coverage of the review notes that domestic collective investment schemes in SARB’s analysis held almost 13% of portfolio assets in selected AI-related companies in the third quarter of 2026, with more than two-thirds of that exposure concentrated in Nvidia, Apple, Microsoft, Amazon and Alphabet. That market-risk channel is distinct from an outage, but both channels illustrate how dependence can accumulate around a small number of technology companies."
+      ],
+      "source_refs": [1, 4]
+    },
+    {
+      "heading": "Where AI fits, and where the evidence stops",
+      "paragraphs": [
+        "SARB argues that more capable AI can help attackers find weaknesses and operate faster and at greater scale, while defensive capacity has not advanced at the same pace. This is a risk assessment, not proof that AI caused the incidents cited in the report. The November Microsoft outage, for example, is included as evidence of shared-service disruption rather than as an AI-driven cyberattack. Keeping those claims separate avoids turning a broad resilience warning into an unsupported attribution.",
+        "AI can also strengthen monitoring, fraud detection and incident analysis. The report therefore does not present technology adoption as inherently unsafe. Its point is that stronger AI governance, containment controls and third-party risk management can reduce exposure but cannot eliminate it when multiple organisations still rely on the same underlying infrastructure. The remaining uncertainty is how quickly institutions and providers can detect, contain and coordinate recovery from a genuinely simultaneous event."
+      ],
+      "source_refs": [1, 3]
+    },
+    {
+      "heading": "What the finding means beyond the banking sector",
+      "paragraphs": [
+        "For South African businesses and public bodies, the immediate lesson is not to assume that a regulated bank’s resilience automatically guarantees every connected service. Payroll files, card acceptance, supplier portals, identity checks, email approvals and customer notifications may sit on different providers. A disruption can therefore interrupt a transaction journey even when funds and core banking records remain safe. Mapping those dependencies makes the difference between a vague cloud risk and a specific operational scenario.",
+        "Financial institutions already operate under a joint cybersecurity and cyber-resilience standard published by the Financial Sector Conduct Authority and Prudential Authority. The framework requires sound cybersecurity practices, but SARB’s latest assessment shows why compliance at one institution is only part of the picture. Shared-provider concentration, cross-border governance and coordinated recovery sit across organisational boundaries, so no single customer or institution can fully control the outcome."
+      ],
+      "source_refs": [1, 2]
+    },
+    {
+      "heading": "A serious warning, not a forecast of collapse",
+      "paragraphs": [
+        "The review’s most important limitation is also its balancing fact: SARB says South Africa’s financial institutions remain well capitalised and liquid, and its forward-looking assessment expects the system to withstand further shocks in the absence of a major systemic event. Independent reporting likewise highlights the distinction between rising operational and cyber risks and the current resilience of the banking system. A high vulnerability rating identifies where disruption could spread; it does not say that such a disruption is inevitable.",
+        "The useful question for leaders is therefore not whether every cloud or cyber incident can be prevented. It is whether essential services can continue when a dependency shared by many organisations is unavailable, and whether customers receive accurate information while recovery is still uncertain. SARB’s November review makes that a financial-stability question for South Africa, not merely an issue for technology departments."
+      ],
+      "source_refs": [1, 3]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Second Edition 2026 Financial Stability Review",
+      "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/reviews/finstab-review/2026/second-edition",
+      "primary": true,
+      "accessed_date": "2026-11-27",
+      "published_date": "2026-11-25"
+    },
+    {
+      "title": "Joint Communication 2 of 2024: Publication of the Joint Standard on Cybersecurity and Cyber Resilience",
+      "url": "https://www.fsca.co.za/Regulatory%20Frameworks/Regulatory%20Frameworks%20Documents/Joint%20Communication%202%20of%202024.pdf",
+      "primary": true,
+      "accessed_date": "2026-11-27",
+      "published_date": "2024-05-17"
+    },
+    {
+      "title": "Geopolitical uncertainty poses risks to domestic financial system, SARB says",
+      "url": "https://www.businessday.co.za/economy/2026-11-26-geopolitical-uncertainty-poses-risks-to-domestic-financial-system-sarb-says/",
+      "primary": false,
+      "accessed_date": "2026-11-27",
+      "published_date": "2026-11-26"
+    },
+    {
+      "title": "Hyperscaler debt boom raises risks for SA – SARB",
+      "url": "https://www.moneyweb.co.za/news/tech/hyperscaler-debt-boom-raises-risks-for-sa-sarb/",
+      "primary": false,
+      "accessed_date": "2026-11-27",
+      "published_date": "2026-11-26"
+    }
+  ]
+}
